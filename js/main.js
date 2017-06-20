@@ -1,7 +1,7 @@
 $(window).load(function(){
 	
 		function responsive(){
-			if(window.matchMedia('(max-width: 978px)').matches)
+			if(window.matchMedia('(max-width: 1024px)').matches)
 			{
 				$(".responseve_w").addClass("menu_mobile");
 				$("#home .slide img").removeClass("cover");
@@ -10,7 +10,7 @@ $(window).load(function(){
 				});
 				
 			}
-			if(window.matchMedia('(min-width: 979px)').matches)
+			if(window.matchMedia('(min-width: 1025px)').matches)
 			{
 				$(".responseve_w").removeClass("menu_mobile");
 				
